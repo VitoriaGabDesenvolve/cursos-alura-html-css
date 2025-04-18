@@ -1,0 +1,55 @@
+:root {
+    --branco: #F6F6F6;
+    --preto: #000000;
+    --azul: #22D4FD;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    margin: 7% 6%;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.main__informacoes{
+    width: 50%;
+}
+
+strong {
+    color: var(--azul);
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+p {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--azul);
+    padding: 0.6em 3em;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 30%;
+}
