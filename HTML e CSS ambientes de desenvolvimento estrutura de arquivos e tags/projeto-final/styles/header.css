@@ -1,0 +1,49 @@
+header {
+    background-color: var(--card-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__topo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 5%;
+}
+
+.header__topo--logo {
+    width: 2.5rem;
+}
+
+.header__topo--botao {
+    background-image: url("/src/icons/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;  
+    width: 2rem; 
+    height: 2rem;
+    background-color: transparent; 
+    border: none;
+}
+
+.header__navbar {
+    display: none;
+    top: 9.5%;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--card-color);
+}
+
+.header__navbar.ativo {
+    display: block;
+}
+
+.header__navbar--item {
+    text-align: start;
+    margin: 7% 0;
+}
+

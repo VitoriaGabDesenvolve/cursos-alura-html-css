@@ -1,0 +1,12 @@
+@import url(/styles/header.css);
+
+:root {
+    --background-color: #161513;
+    --card-color: #2A2A2A;
+    --branco: #FFFFFF;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--branco);
+}
